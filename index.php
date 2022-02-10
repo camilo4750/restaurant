@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css?v=<?php echo time(); ?>">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header id="header">
+        <div class="row m-0">
+            <div class="col-3 bgcolor-black">
+                <nav class="primary-nav navbar-expand-md">
+                    <div class="site-title text-center text-light py-5">
+                        <a href="#" class="navbar-brad font-staat font-size-40">Happy palate</a>
+                        <p class="descripcion text-uppercase font-staat">Chefs profesionales en latinoamerica</p>
+                    </div>
+                    <div class="flex-colum">
+                        <a href="#inicio" class="nav-item nav-link text-white-50 font-size-16 font-sub">Inicio</a>
+                        <a href="#abilidades" class="nav-item nav-link text-white-50 font-size-16 font-sub">Nosotros</a>
+                        <a href="#servicios" class="nav-item nav-link text-white-50 font-size-16 font-sub">Servicios</a>
+                        <a href="#referencias" class="nav-item nav-link text-white-50 font-size-16 font-sub">Portafolio</a>
+                        <a href="#trabajos" class="nav-item nav-link text-white-50 font-size-16 font-sub">Noticias</a>
+                        <a href="#noticias" class="nav-item nav-link text-white-50 font-size-16 font-sub">Comunicate con nosotros</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
+        <div class="social">
+            <span class="mr-3"><i class="fab fa-facebook"></i></span>
+            <span class="mr-3"><i class="fab fa-twitter"></i></span>
+            <span class="mr-3"><i class="fab fa-instagram"></i></span>
+        </div>
+    </header>
+    <!--#Header-->
+
+    <!--Sitio proncipal-->
+    <main id="SitioPrincipal">
+        <div class="row m-0">
+            <div class="col-md-9 offset-md-3 px-0">
+                <!--área de banner del sitio-->
+                <section class="site-banner" id="home">
+                    <div class="banner-area">
+                        <div class="author author-text">
+                            <div class="author-img"></div>
+                            <h1 class="text-white font-size-40 font-staat text-uppercase py-3">Carolain Dias</h1>
+                            <h5 class="text-white font-sub font-size-27"><span id="typed"></span></h5>
+                        </div>
+                    </div>
+                </section>
+                <!--#área de banner del sitio-->
+
+                <!--Acerca de mi area-->
+
+                <section class="about px-4 my-5" id="inicio">
+                    <h5 class="text-uppercase font-sub font-size-20 text-muted">Informacion</h5>
+                    <h1 class="text-uppercase font-staat2 font-size-34">Acerca de mi</h1>
+                    <div class="row m-0">
+                        <div class="col-sm-5">
+                            <img src="assets/Img/chef3.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="text-uppercase font-sub font-size-16 text-muted">Acerca de Mi</h6>
+                            <h5 class="font-sub font-size-20 py-3 ">Soy Carolain Dias <span id="typed_2"></span></h5>
+                            <p class="font-parrafo text-black-50 py-2 font-size-16">Un buen chef, también debe ser un buen líder para su grupo. Con respeto hacia su equipo y reconocimiento de todas las tareas
+                                necesarias para a realización óptima de los servicios del restaurante, un chef debe ser un guía para los más experimentas.</p>
+                            <div class="d-flex flex-row flex-wrap">
+                                <div class="d-flex flex-column">
+                                    <p class="font-parrafo"><b>Cumpleaños: </b><span class="text-black-50">5 de abril del 2000</span></p>
+                                    <p class="font-parrafo"><b>Email: </b><span class="text-black-50">Carolina@Carolina.com</span></p>
+                                    <p class="font-parrafo"><b>Telefono: </b><span class="text-black-50">3143854382</span></p>
+                                </div>
+                                <div class="d-flex flex-row flex-wrap ml-2">
+                                    <div class="d-flex flex-column">
+                                        <p class="font-parrafo"><b>Cumpleaños: </b><span class="text-black-50">5 de abril del 2000</span></p>
+                                        <p class="font-parrafo"><b>Email: </b><span class="text-black-50">Carolina@Carolina.com</span></p>
+                                        <p class="font-parrafo"><b>Telefono: </b><span class="text-black-50">3143854382</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                <!--#Acerca de mi area-->
+
+                <!--Abilidades-->
+                <section class="skill px-4 py-5 bg-light" id="abilidades">
+                    <div class="abilidad py-3">
+                        <h5 class="text-uppercase font-sub font-size-20 text-muted">Informacion</h5>
+                        <h1 class="text-uppercase font-staat2 font-size-34">Acerca de mi</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 pl-4">
+                            <p class="font-parrafo font-size-16 text-black-50">
+                                Habilidades de gestión Este punto incluye los ingresos y la gestión del rendimiento, una competencia básica que todo manager de alto nivel debe poseer.</br>
+                                Competencias operacionales Estamos hablando de habilidades profesionales que se usan en el trabajo, como la capacidad de cocinar y la investigación
+                                de comidas, lo que puede desarrollarse durante la formación o cursos educativos.
+                                </br>
+                                Buen sentido de la estetica. Emplatar con estilo es difícil, no te lo negaré pero, como todo en esta vida, es algo que se aprende, no es un don y ya.
+                                Hay que trabajarlo, que buscarlo y que realizar muchas pruebas hasta conseguir enamorar primero con la vista y después con el sabor.
+                            </p>
+                        </div>
+
+                        <div class="col-sm-6 bars">
+                            Chef Ejecutivo:
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                            Segundo en Cocina:
+                            <div class="progress mt-2">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                            Chef Mayor:
+                            <div class="progress mt-2">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                            Chefs de sección:
+                            <div class="progress mt-2">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--#Abilidades-->
+
+                <!--Servicios-->
+                <section class="services-area px-4 py-5" id="servicios">
+                    <div class="do py-5">
+                        <h5 class="text-uppercase font-sub font-size-20 text-muted">Lo que hago</h5>
+                        <h1 class="text-uppercase font-staat2 font-size-34">Servicios</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-laptop fa-3x"></i></span>
+                                <h4 class="font-sub py-4">Normas de salud</h4>
+                                <p class="font-sub font-size-16 text black"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-address-book fa-3x"></i></span>
+                                <h4 class="font-sub py-4">Planificación del menú</h4>
+                                <p class="font-sub font-size-16 text black"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-calendar-check fa-3x"></i></span>
+                                <h4 class="font-sub py-4">Gestionar el equipo</h4>
+                                <p class="font-sub font-size-16 text black"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-address-card fa-3x"></i></span>
+                                <h4 class="font-sub py-4">Tareas administrativas</h4>
+                                <p class="font-sub font-size-16 text black"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-calendar-alt fa-3x"></i></span>
+                                <h4 class="font-sub py-4">Actualizar los menús</h4>
+                                <p class="font-sub font-size-16 text black"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-glass-cheers fa-3x"></i></span>
+                                <h4 class="font-sub py-4">Preparación de los alimentos</h4>
+                                <p class="font-sub font-size-16 text black"></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!--#Servicios-->
+
+                <!--Referencias-->
+                <section class="reference bg-light px-4 py-5" id="referencias">
+                    <div class="dol py-5">
+                        <h5 class="text-uppercase font-sub font-size-20 text-muted">Mis Referencias</h5>
+                        <h1 class="text-uppercase font-staat2 font-size-34">Referenias</h1>
+                        <div class="row mb-5">
+                            <div class="col-sm-4 my-3">
+                                <img src="assets/Img/uno.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-sm-4 my-3">
+                                <img src="assets/Img/cuatro.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-sm-4 my-3">
+                                <img src="assets/Img/tres.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--#Referencias-->
+
+                <!--Tabajos creativos-->
+                <section class="works py-5 px-4" id="trabajos">
+                    <div class="py-3">
+                        <h5 class="text-uppercase font-sub font-size-20 text-muted">Portafolio</h5>
+                        <h1 class="text-uppercase font-staat2 font-size-34">Trabajos Creativos</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 pb-4">
+                            <img src="assets/Img/tr1.jpg" alt="" class="img-fluid image">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="assets/Img/tr2.jfif" alt="" class="img-fluid image">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="assets/Img/tr3.jpg" alt="" class="img-fluid image">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="assets/Img/tr4.jpg" alt="" class="img-fluid image">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="assets/Img/tr5.jpg" alt="" class="img-fluid image">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="assets/Img/tr6.jpg" alt="" class="img-fluid image">
+                        </div>
+                    </div>
+                </section>
+                <!--#Tabajos creativos-->
+
+                <!--Noticias-->
+                <section class="works py-5 px-4 bg-light" id="noticias">
+                    <div class="py-3">
+                        <h5 class="text-uppercase font-sub font-size-20 text-muted">Leer</h5>
+                        <h1 class="text-uppercase font-staat2 font-size-34">Nuevas Noticias</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 my-3">
+                            <div class="card border-0">
+                                <img src="assets/Img/new4.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="font-sub font-size-16 text-black-50">en <b class="font-parrafo text-dark">Brazil</b> </p>
+                                    <h5 class="font-size-16 font-staat2">Nuevos platos en Italia</h5>
+                                    <p class="card-text text-dark-50">Como es costumbre Italia deja en lo mas alto su nombre on platos tan exquisitos y con sabores incomparables</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 my-3">
+                            <div class="card border-0">
+                                <img src="assets/Img/NEW2.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="font-sub font-size-16 text-black-50">en <b class="font-parrafo text-dark">Colombia</b> </p>
+                                    <h5 class="font-size-16 font-staat2">Nuevos platos en Colombia</h5>
+                                    <p class="card-text text-dark-50">Como es costumbre Colombia deja en lo mas alto su nombre on platos tan exquisitos y con sabores incomparables</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 my-3">
+                            <div class="card border-0">
+                                <img src="assets/Img/NEW3.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="font-sub font-size-16 text-black-50">en <b class="font-parrafo text-dark">Mexico</b> </p>
+                                    <h5 class="font-size-16 font-staat2">Nuevos platos en Mexico</h5>
+                                    <p class="card-text text-dark-50">Como es costumbre Mexico deja en lo mas alto su nombre on platos tan exquisitos y con sabores incomparables</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--#Noticias-->
+
+                <!--Footer-->
+                <footer id="footer" class="pt-5 px-3">
+                    <div id="contact">
+                        <div class="py-3 px-2">
+                            <h5 class="text-uppercase font-sub font-size-20 text-muted">Ubicacion</h5>
+                            <h1 class="text-uppercase font-staat2 font-size-34">Contacta con nosotros</h1>
+                        </div>
+                        <div class="row py-5">
+                            <div class="col-sm-6">
+                                <h6 class="text-uppercase font-sub font-size-16">Happy palate</h6>
+                                <p class="font-sub w-50 font-size-16 text-black-50">Comunicate con nosotros para contratar los mejores servicios con los mejores chefs para tus eventos, has que todos se vayan felices.</p>
+                                <p class="font-sub font-size-16 text-black-50">Telefono: 3145843533</p>
+                                <p class="font-sub font-size-16 text-black-50">Email: Dias@Dias.com</p>
+                                <p class="font-sub font-size-16 text-black-50">Ubicacion: Sogamoso-Boyaca</p>
+                                <p class="font-sub font-size-16 text-black-50">Fax: ssss</p>
+                            </div>
+                            <div class="col-sm-6 py-4 px-4">
+                                <h6 class="text-uppercase font-staat2 font-size-16">Contactanos</h6>
+                                <form action="" class="py-3">
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="nombre">
+                                        </div>
+                                        <div class="col">
+                                            <input type="email" class="form-control" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <textarea name="" id="" cols="30" rows="3" class="form-control my-4" placeholder="Mensage"></textarea>
+                                    <button class="btn btn-dark">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row py-5 bg-light">
+                            <div class="col-sm-4 my-4 text-center">
+                                <h6 class="font-staat2 font-size-16 text-black-50">&copy;2020 Happpy Palate</h6>
+                            </div>
+                            <div class="col-sm-4 my-4 text-center">
+                                <div class="footer-title text-ligh">
+                                    <a href="#" class="navbar-brad font-staat2 font-size-16 text-black-50">Happpy Palate</a>
+                                    <p class="navbar-brad font-staat2 font-size-16 text-black-50">Chefs profesionales en latinoamerica</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 my-5 text-center">
+                                <span class="mr-3"><i class="fab fa-facebook"></i></span>
+                                <span class="mr-3"><i class="fab fa-twitter"></i></span>
+                                <span class="mr-3"><i class="fab fa-instagram"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!--#Footer-->
+            </div>
+        </div>
+    </main>
+    <!--#Sitio proncipal-->
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" crossorigin="anonymous"></script>
+<script src="vendor/Typed/typed.min.js"></script>
+<script src="Index.js"></script>
